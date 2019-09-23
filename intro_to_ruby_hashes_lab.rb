@@ -3,8 +3,7 @@ def base_hash
   # keyword "return." Nice and neat.
 	{
 	  railroads: 
-	    {pieces: 
-	      []
+	    {
 	    }
 	  }
 end
