@@ -23,9 +23,9 @@ end
 
 def monopoly_with_fourth_tier
   fourth_tier =  monopoly_with_third_tier
-  fourth_tier[:railroads][:names][:reading_railroad][:mortgage_value] = "$100"
-  fourth_tier[:railroads][:names][:pennsylvania_railroad][:mortgage_value] = "$100"
-  fourth_tier[:railroads][:names][:b_and_o_railroad][:mortgage_value] = "$100"
-  fourth_tier[:railroads][:names][:shortline_railroad][:mortgage_value] = "$100"
+  fourth_tier[:railroads][:names][:reading_railroad]["mortgage_value"] = "$100"
+  fourth_tier[:railroads][:names][:pennsylvania_railroad]["mortgage_value"] = "$100"
+  fourth_tier[:railroads][:names][:b_and_o_railroad]["mortgage_value"] = "$100"
+  fourth_tier[:railroads][:names][:shortline_railroad]"mortgage_value"] = "$100"
   fourth_tier
 end
