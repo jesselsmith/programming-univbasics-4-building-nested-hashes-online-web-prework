@@ -16,7 +16,7 @@ end
 
 def monopoly_with_third_tier
   third_tier = monopoly_with_second_tier
-  third_tier[:railroads][:rent_in_dollars] = {one: 0, two: 0, three: 0, four: 0}
+  third_tier[:railroads][:rent_in_dollars] = {one_piece_owned: 25, two_pieces_owned: 0, three_pieces owned: 0, four_pieces_owned: 0}
   third_tier[:railroads][:names] = {first: "a", second: "b", third: "c", fourth: "d"}
   third_tier
 end
